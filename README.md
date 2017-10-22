@@ -1,18 +1,19 @@
 
 使用servlet编写的商城项目
 
+数据库:Mysql5.0
 
 <table>
 <tr>
   <td>
-     <font bold="true">商城首页</font>
+     <span style="font-weight:bold;">商城首页</span>
     <img src="https://github.com/JackZhangOnly/mall-servlet/blob/master/screen/index.jpg" width="800" height="400" alt="商城首页"/>
   </td>
   
 </tr>
 <tr>
   <td>
-    #### 购物车
+       <span style="font-weight:bold;">购物车</span>
     <img src="https://github.com/JackZhangOnly/mall-servlet/blob/master/screen/card.png" width="800" height="400" alt="购物车"/>
   </td>
 </tr>
