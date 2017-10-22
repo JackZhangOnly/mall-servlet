@@ -5,7 +5,7 @@
 <table>
 <tr>
   <td>
-    #### 商城首页
+     <font bold="true">商城首页</font>
     <img src="https://github.com/JackZhangOnly/mall-servlet/blob/master/screen/index.jpg" width="800" height="400" alt="商城首页"/>
   </td>
   
