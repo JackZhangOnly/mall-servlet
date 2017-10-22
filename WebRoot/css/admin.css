@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	font-size: 12px;
+	margin: 0;
+}
+a:link,a:hover,a:visited,a:active{
+	color: #0066cc;
+	text-decoration:none;
+}
+img {
+	border: 0
+}
+
+#menus a:link,a:hover {
+	color: #000000;
+	text-decoration: none
+}
+
+#menus a:visited,a:active {
+	color: #000000;
+}
+
+img {
+	border: 0
+}
+
+td {
+	font-size: 12px
+}
+
+.fontred {
+	color: #F00
+}
+.fontbb {
+	color: #000;
+	font-weight: bold
+}
+.bluebutton {
+	background-image: url(../images/btnViPrmry.gif);
+	background-repeat: no-repeat;
+	border: 0;
+	width: 80px;
+	height: 24px;
+	text-align: center;
+	color: #FFF;
+	padding-top: 4px;
+}
+
+.dvdashed {
+	border-top: 1px dashed #dbdbdb;
+	height: 1px;
+	overflow: hidden;
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+.dvsolid {
+	border-top: 1px solid #dbdbdb;
+	height: 1px;
+	overflow: hidden;
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+.dvmenu {
+	border-top: 1px solid #e0e6f1;
+	padding-top: 3px;
+	padding-bottom: 2px
+}
+
+.dvbottommenu {
+	border-bottom: 1px solid #e0e6f1;
+	border-top: 1px solid #e0e6f1;
+	padding-top: 3px;
+	padding-bottom: 2px
+}
+
+.dvtdleft {
+	width: 5px;
+	height: 18px
+}
+
+.mtdleft {
+	width: 12px;
+	padding-left: 3px
+}

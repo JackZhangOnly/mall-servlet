@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* CSS Document */
+.dvtophead {
+	padding-top: 10px;
+}
+
+.fontww {
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+.dvsearch {
+	background-image: url(../images/search.jpg);
+	width: 960px;
+	height: 38px;
+}
+
+.textsearch {
+	margin-left: 180px;
+	width: 300px;
+}
+
+.selecttype {
+	margin-right: 12px;
+}
+
+.dvhelp {
+	background-image: url(../images/helpbarbg.jpg);
+	background-repeat: repeat-x;
+	height: 20px;
+}
+.mainbottom {
+	background-image: url(../images/main_6.jpg);
+	width: 316px;
+	height: 142px;
+	margin-top: 20px;
+}
+
+.mainbottom img {
+	margin-left: 8px;
+	margin-top: 11px;
+}

@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	margin: 0;
+	font-size: 12px;
+	background-image: url(../images/headbg.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+div {
+	font-size: 12px
+}
+
+td {
+	font-size: 12px;
+	color: #4E4E4E
+}
+
+th {
+	font-size: 12px;
+	color: #4E4E4E
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: #003366;
+	text-decoration: none;
+}
+
+.dvdashed {
+	border-top: 1px dashed #dbdbdb;
+	height: 1px;
+	overflow: hidden;
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+.dvsolid {
+	border-top: 1px solid #dbdbdb;
+	height: 1px;
+	overflow: hidden;
+	margin-bottom: 7px;
+	margin-top: 7px;
+}
+
+.dvbody {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.dvlogo {
+	padding-top: 10px;
+}
+
+.redbutton {
+	background-image: url(../images/redButton.png);
+	display: block;
+	background-repeat: no-repeat;
+	border: 0;
+	width: 75px;
+	height: 21px;
+	text-align: center;
+	color: #FFF;
+	padding-top: 4px;
+}
+.bluebutton {
+	background-image: url(../images/btnViPrmry.gif);
+	background-repeat: no-repeat;
+	border: 0;
+	width: 80px;
+	height: 24px;
+	text-align: center;
+	color: #FFF;
+	padding-top: 4px;
+}
+.bottomline {
+	height: 4px;
+	background-color: #FF6600;
+	overflow: hidden;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.kuang {
+	width: 228px;
+}
+
+.loginkuang {
+	width: 200px;
+}
+
+.tips {
+	color: #E70312;
+	border: 1px solid #C6A263;
+	background-color: #FCB879;
+}
+
+.loginhead {
+	background-image: url(../images/login_top.gif);
+	background-repeat: repeat-x;
+	margin-bottom: 16px;
+	margin-top: 6px;
+	height: 6px;
+	overflow: hidden;
+}
+
+.userhead {
+	background-image: url(../images/login_top.gif);
+	background-repeat: repeat-x;
+	margin-bottom: 10px;
+	margin-top: 6px;
+	height: 37px;
+	overflow: hidden;
+}
+
+.userhead div {
+	padding-top: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.fontred {
+	color: #F00
+}
+
+.fontbb {
+	color: #000;
+	font-weight: bold
+}
+
+.usertb {
+	border: 1px solid #7D81D7;
+	width: 100%;
+	margin-bottom: 3px;
+	text-align: left;
+}
+
+.usertb th {
+	background-color: #CCCCFF;
+	color: #000;
+	border-bottom: 1px solid #7D81D7;
+	padding-left: 12px;
+	height: 30px;
+}
+
+.usertb td {
+	padding-left: 24px;
+}
+
+/*添加按钮*/
+.butadd {
+	width: 143px;
+	height: 31px;
+	border: none;
+	background-image: url(../images/but.png);
+	background-position: 0px 0px;
+}
+
+/* 登录按钮*/
+.butlogin {
+	width: 77px;
+	height: 26px;
+	border: none;
+	background-image: url(../images/but.png);
+	background-position: 0px -114px;
+}
+
+/*快速注册按钮*/
+.buttore {
+	width: 143px;
+	height: 26px;
+	border: none;
+	background-image: url(../images/but.png);
+	background-position: 0px -62px;
+}

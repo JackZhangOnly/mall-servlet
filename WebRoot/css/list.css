@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+/* CSS Document */
+.listhead {
+	background-image: url(../images/list_head.jpg);
+	width: 960px;
+	height: 69px;
+	margin-bottom: 10px;
+}
+
+.listhead div {
+	color: #003366;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-left: 21px;
+	padding-bottom: 6px;
+}
+
+.listhead div a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.listhead  span {
+	color: #3664A5;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 21px;
+}
+
+.listleft {
+	background-image: url(../images/list_left.jpg);
+	width: 200px;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+
+.listleft .dvtypename {
+	height: 45px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.dvtypename span {
+	padding-top: 11px;
+}
+
+.listleft a {
+	color: #808080;
+	display: block;
+	text-decoration: none;
+	height: 34px;
+}
+
+.listleft a:hover {
+	background-color: #FF4500;
+	color: #FFF;
+}
+
+.listleft span {
+	display: block;
+	padding-left: 8px;
+	padding-top: 9px;
+}
+
+.listright {
+	border: 1px solid #dbdbdb;
+	padding: 11px 0 11px 20px;
+}
+
+.dvnavigation {
+	background-image: url(../images/list_navigation.jpg);
+	width: 711px;
+	height: 35px;
+}
+
+.dvnavigation select {
+	margin-right: 11px;
+	color: #404040
+}
+
+.dvcount {
+	padding-left: 11px;
+}
+
+.dvpage a {
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #DBDBDB;
+	height: 17px;
+	width: 51px;
+	margin-right: 10px;
+	padding-top: 3px;
+	text-decoration: none
+}
+
+.dvshow {
+	width: 711px;
+}
+
+.dvshow table {
+	margin-top: 10px;
+}
+
+.dvshow .spname {
+	color: #003366;
+	font-size: 16px;
+	font-weight: bold
+}
+
+.dvshow .spprice {
+	display: block;
+	padding-left: 24px;
+	padding-top: 20px;
+	width: 170px;
+	color: #003366;
+	font-size: 16px;
+	font-weight: bold
+}
+
+.dvshow .dvdesc {
+	padding-top: 7px;
+	padding-bottom: 10px;
+}
+
+.dvbr {
+	height: 16px;
+}
+
+.dvshowimg {
+	height: 112px;
+	width: 112px;
+	border: 1px solid #d6d6d6;
+}
+
+.dvshowimg img {
+	margin: 1px;
+	cursor: pointer;
+	height: 110px;
+	width: 110px;
+}
+
+.showimg {
+	height: 290px;
+	width: 290px;
+	border: 1px solid #d6d6d6;
+}
+
+.showimg img {
+	margin: 1px;
+	height: 288px;
+	width: 288px;
+}
+
+.dvincar {
+	background-image: url(../images/cartadd.gif);
+	height: 26px;
+	width: 149px;
+	float: left;
+	margin-right: 10px;
+	cursor:pointer;
+}
+
+.dvcollection {
+	background-image: url(../images/collection.gif);
+	height: 26px;
+	width: 149px;
+	float: left;
+}
+
+.dvcollection span {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 52px;
+	padding-top: 5px;
+	display: block;
+}
+
+.dvincar span {
+	color: #FFF;
+	text-align: right;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 52px;
+	padding-top: 5px;
+	display: block;
+}
+
+.a_incar {
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.showbottom {
+	border-bottom: 1px solid #DBDBDB
+}
+
+.showtitle {
+	color: #000;
+	font-weight: bold;;
+	display: block;
+	padding-left: 20px;
+	padding-top: 11px;
+}
+
+.showprice {
+	color: #003366;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	padding-top: 10px;
+}
+
+.showtype {
+	padding-top: 11px;
+}
+
+.showtype span {
+	color: #003366;
+}
+
+.showdesc {
+	margin-top: 16px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #dbdbdb;
+	border-left: 0;
+	border-right: 0;
+}
+
+.dvcomments {
+	border: 1px solid #BBCAEF;
+	margin-top: 10px;
+	padding-top: 3px;
+}
+
+.dvcommenthead {
+	background-image: url(../images/comment.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #BBCAEF;
+	height: 27px;
+	border-bottom: 0;
+	margin-left: 3px;
+}
+
+.dvcommenthead span {
+	color: #555555;
+	display: block;
+	padding-left: 16px;
+	padding-top: 7px;
+	font-weight: bold;
+}
+
+.spmsg {
+	display: block;
+	margin-left: 24px;
+	margin-top: 10px;
+	color: #000;
+	font-weight: bold;
+}
+
+.dvwritecomments textarea {
+	margin-left: 24px;
+	margin-top: 10px;
+	width: 663px;
+	height: 92px;
+}
+
+.showcomment {
+	width: 693px;
+	border-bottom: 1px solid #dbdbdb;
+	margin-left: 13px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	line-height: 18px;
+}
+
+.spcomment {
+	color: #222222;
+}
+
+.dvcommentsub {
+	text-align: right;
+	padding-top: 16px;
+	padding-right: 24px;
+}
+
+.chlc {
+	margin-left: 30px;
+}
+
+.carhead {
+	background-image: url(../images/carhead.jpg);
+	width: 750px;
+	height: 56px;
+	margin-bottom: 16px;
+}
+
+.carhead div {
+	padding-top: 20px;
+	padding-left: 120px;
+	color: #999999;
+}
+
+.carhead span {
+	color: #333333;
+	font-weight: bold;
+}
+
+.showtitle span {
+	color: #003366;
+}
+
+.carimg {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #d6d6d6;
+	margin-left: 12px;
+}
+
+.cargood {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.carnum {
+	width: 35px;
+}
+
+.sptprice {
+	color: #000;
+	font-weight: bold;
+	display: block;
+	margin-right: 10px;
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Styles for the entire LavaLamp menu */
+.dvlava{
+	background: url(../images/bg.gif) no-repeat top;
+	width:400px;}
+.lavaLamp {
+    position: relative;
+    height: 23px; width: 400px;
+	padding-left:20px;
+    overflow: hidden;
+}
+    /* Force the list to flow horizontally */
+    .lavaLamp li {
+        float: left;
+        list-style: none;
+    }
+        /* Represents the background of the highlighted menu-item. */
+        .lavaLamp li.back {
+		
+            background: url(../images/lava.gif) no-repeat right -23px;
+            width: 9px; height: 23px;
+            z-index: 8;
+            position: absolute;
+        }
+            .lavaLamp li.back .left {
+					padding-top:5px;
+                background: url(../images/lava.gif) no-repeat top left;
+                height: 23px;
+                margin-right:3px;
+            }
+        /* Styles for each menu-item. */
+        .lavaLamp li a {
+            position: relative; overflow: hidden;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #000; outline: none;
+            text-align: center;
+            height: 23px; 
+			top:1px;
+            z-index: 10; letter-spacing: 0;
+            float: left; display: block;
+            margin: auto 10px;
+			padding-top:6px;
+        }
+        

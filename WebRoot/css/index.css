@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/* CSS Document */
+.maintitle {
+	font-size: 16px;
+	font-weight: bold;
+	color: #1C2530;
+}
+
+.mainlefttop {
+	background-image: url(../images/main_1.jpg);
+	background-repeat: no-repeat;
+	width: 616px;
+	height: 294px;
+	margin-bottom: 10px;
+	margin-right: 14px;
+}
+
+.mainlefttop div {
+	padding: 11px 8px 11px 8px
+}
+
+.mainleftbottom {
+	background-image: url(../images/main_4.jpg);
+	background-repeat: no-repeat;
+	width: 618px;
+	height: 314px;
+	margin-bottom: 10px;
+	margin-right: 14px;
+}
+
+.mainleftbottom #dvlb {
+	padding: 12px 15px 33px 15px
+}
+
+#dvlb div {
+	padding-left: 6px;
+	padding-top: 9px;
+}
+
+#dvlb  span {
+	padding-left: 16px;
+	display: block;
+	line-height: 18px
+}
+
+#dvlb a {
+	text-decoration: none;
+}
+
+.mainright {
+	background-image: url(../images/main_2.jpg);
+	background-repeat: no-repeat;
+	width: 330px;
+	height: 142px;
+	margin-bottom: 10px;
+}
+
+.mainright img {
+	margin: 11px 15px 11px 15px;
+}
+
+.mainscroll {
+	background-image: url(../images/main_3.jpg);
+	background-repeat: no-repeat;
+	width: 330px;
+	height: 162px;
+	margin-bottom: 10px;
+}
+
+.mainscroll ul {
+	list-style: none;
+	margin-left: 15px;
+}
+
+#marquee {
+	height: 142px;
+	OVERFLOW: hidden;
+}
+
+#marquee ul li {
+	padding-top: 10px;
+}
+
+.mainbottomleft {
+	background-image: url(../images/main_5.jpg);
+	height: 219px;
+	width: 474px;
+	float: left;
+	margin-right: 12px;
+}
+
+.mainbottomleft span {
+	display: block;
+	padding-top: 10px;
+	padding-left: 12px;
+}
+
+.mainbottomleft div {
+	padding-left: 12px;
+	padding-top: 10px;
+}
+
+.mainbottomright {
+	background-image: url(../images/main_5.jpg);
+	height: 219px;
+	width: 474px;
+	float: left
+}
+
+.mainbottomright span {
+	display: block;
+	padding-top: 10px;
+	padding-left: 12px;
+}
+
+.mainbottomright div {
+	padding-left: 12px;
+	padding-top: 10px;
+}
