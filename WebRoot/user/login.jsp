@@ -4,7 +4,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 	<head>
-		<title>U-bai - 用户登录</title>
+		<title>用户登录</title>
 		<link href="${ctx}/css/common.css" rel="stylesheet" type="text/css" />
 		<script type="text/javascript" src="${ctx}/js/jquery.js"></script>
 		<script type="text/javascript" src="${ctx}/js/hovering.js"></script>
@@ -100,7 +100,7 @@
 													登录账户
 												</div>
 												<div style="margin-top: 6px; margin-bottom: 6px">
-													登录U-bai 享受购物之旅
+													登录 享受购物之旅
 												</div>
 												<img src="${ctx}/images/login_123.jpg" width="300"
 													height="3" />
@@ -113,7 +113,7 @@
 											</td>
 											<td width="229" align="left">
 												<input name="name" type="text" class="loginkuang"
-													value="pro123" />
+													value="jack123" />
 											</td>
 										</tr>
 										<tr>
@@ -122,7 +122,7 @@
 											</td>
 											<td align="left">
 												<input name="password" type="password" class="loginkuang"
-													value="123123" />
+													value="jack123" />
 											</td>
 										</tr>
 										<tr>
@@ -139,10 +139,10 @@
 													style="background-image: url(${ctx}/images/login_33213.jpg); background-repeat: repeat-x; height: 102px">
 													<div
 														style="padding-top: 12px; padding-left: 18px; width: 280px; margin-left: auto; margin-right: auto">
-														<span style="color: #000; font-weight: bold">还不是U-bai用户?</span>
+														<span style="color: #000; font-weight: bold">还不是 用户?</span>
 														快捷方便的免费注册，让你立
 														<br />
-														刻尽享U-bai提供的各项优惠及服务...
+														刻尽享 提供的各项优惠及服务...
 													</div>
 													<div style="text-align: right; padding-top: 12px">
 														<input type="button" class="buttore"
@@ -160,7 +160,6 @@
 				</div>
 				<div class="bottomline"></div>
 				<div style="color: #4E4E4E; text-align: center">
-					Copyright © 2009 U-Bai.com - ICP: 沪ICP备 09033184
 				</div>
 			</div>
 		</form>
