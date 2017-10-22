@@ -6,7 +6,7 @@
 <table>
 <tr>
   <td>
-     <span style="font-weight:bold;">商城首页</span>
+     <span style="font-weight:bold;"><B>商城首页</B></span>
     <img src="https://github.com/JackZhangOnly/mall-servlet/blob/master/screen/index.jpg" width="800" height="400" alt="商城首页"/>
   </td>
   
