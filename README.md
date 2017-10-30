@@ -10,10 +10,5 @@
   </td>
   
 </tr>
-<tr>
-  <td>
-       <B>购物车</B>
-    <img src="https://github.com/JackZhangOnly/mall-servlet/blob/master/screen/card.png" width="800" height="400" alt="购物车"/>
-  </td>
-</tr>
+
 </table>
